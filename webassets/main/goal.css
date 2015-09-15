@@ -1,0 +1,363 @@
+/*
+Theme Name: iSpera
+Author: Kevin Nguy
+Copyright 2009 iSpera 
+*/
+body {
+margin-top: 10px;
+padding: 0;
+background: url(images/bg.jpg) repeat;
+background-attachment: fixed;
+font-family:  Tahoma, Geneva, sans-serif;
+font-size: 12px;
+color: #635821;
+}
+h1, h2, h3 {
+margin: 0;
+padding: 0;
+text-transform: lowercase;
+font-family:  Tahoma, Geneva, sans-serif;
+font-weight: normal;
+color: #5E510E;
+}
+h1 {
+letter-spacing: -1px;
+font-size: 32px;
+}
+h2 {
+font-size: 23px;
+}
+p, ul, ol {
+margin: 0 0 2em 0;
+text-align: justify;
+line-height: 26px;
+}
+a:link {
+color: #AB5B00;
+text-decoration: none;
+}
+a:hover, a:active {
+text-decoration: none;
+color: #AB5B00;
+}
+a:visited {
+color: #AB5B00;
+}
+img {
+border: none;
+}
+img.left {
+float: left;
+margin: 7px 15px 0 0;
+}
+img.right {
+float: right;
+margin: 7px 0 0 15px;
+}
+/* Form */
+form {
+margin: 0;
+padding: 0;
+}
+fieldset {
+margin: 0;
+padding: 0;
+border: none;
+}
+legend {
+display: none;
+}
+input, textarea, select {
+font-family:  Tahoma, Geneva, sans-serif;
+font-size: 13px;
+color: #333333;
+}
+#wrapper {
+}
+/* Header */
+#header {
+width: 816px;
+height: 200px;
+background: url(images/goal_header.png) no-repeat left top;
+margin: 0 auto;
+padding: 0;
+}
+#logo {
+float: left;
+margin-left: 30px;
+padding-top: 50px;
+}
+#logo h1, #logo h2 {
+margin: 0;
+padding: 0;
+}
+#logo h1 {
+font-size: 38px;
+color: #3399CC;
+}
+#logo h1 a {
+color: #FFFFFF;
+}
+#logo h2 {
+text-transform: uppercase;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 10px;
+color: #F2B870;
+}
+#logo a {
+text-decoration: none;
+color: #F2B870;
+}
+/* Page */
+#page {
+width: 816px;
+margin: 0 auto;
+background: url(images/goal_body_bg.png) repeat-y left top;
+}
+/* Content */
+#content {
+float: right;
+width: 544px;
+padding-right: 30px;
+padding-bottom: 0px;
+padding-left: 30px;
+}
+/* Post */
+/* Post */
+.post {
+padding-bottom: 0px;
+}
+.post .title {
+margin-bottom: 0px;
+padding-bottom: 15px;
+color: #AB5B04;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 23px;
+}
+.post .entry {
+}
+.post .meta {
+margin: 0;
+padding: 5px 0 30px 0;
+}
+.post .meta p {
+margin: 0;
+line-height: normal;
+}
+.post .meta .byline {
+float: left;
+color: #0000FF;
+}
+.post .meta .links {
+float: right;
+}
+.post .meta .more {
+width: 185px;
+height: 35px;
+padding: 5px 0px 5px 0px;
+text-transform: uppercase;
+text-decoration: none;
+font-size: 11px;
+}
+.post .meta .comments {
+padding: 0px 0px 5px 0px;
+text-transform: uppercase;
+text-decoration: none;
+font-size: 11px;
+}
+.post .meta b {
+display: none;
+}
+/* Sidebar */
+#sidebar {
+float: left;
+width: 204px;
+padding-right: 0px;
+padding-bottom: 0px;
+padding-left: 8px;
+}
+#sidebar ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+#sidebar li {
+margin-bottom: 30px;
+}
+#sidebar li ul {
+}
+#sidebar li li {
+margin: 0;
+padding: 3px 0;
+}
+#sidebar h2 {
+margin: 0;
+padding: 0;
+font-size: 20px;
+font-weight: normal;
+color: #FFFFFF;
+}
+#sidebar a {
+text-decoration: none;
+}
+/* Sidebar Buttons*/
+#sidebar li li.goal a{
+width:203px; 
+height:42px;
+display:block; 
+background:url(images/goal_buttonDown.png) 0 0 no-repeat; 
+text-indent:-20000px;
+}
+#sidebar li li.home a:link, #sidebar li li.home a:visited{
+width:203px; 
+height:42px;
+display:block; 
+overflow:hidden;
+background:url(images/home_button.png) 0 0 no-repeat; 
+text-indent:-20000px;
+}
+#sidebar li li.home a:hover, #sidebar li li.home a:active{
+background-position: 0px -42px;
+}
+#sidebar li li.tshirt a:link, #sidebar li li.tshirt a:visited{
+width:203px; 
+height:42px;
+display:block; 
+overflow:hidden;
+background:url(images/tshirt_button.png) 0 0 no-repeat; 
+text-indent:-20000px;
+}
+#sidebar li li.tshirt a:hover, #sidebar li li.tshirt a:active{
+background-position: 0px -42px;
+}
+#sidebar li li.links a:link, #sidebar li li.links a:visited{
+width:203px; 
+height:42px;
+display:block; 
+overflow:hidden;
+background:url(images/links_button.png) 0 0 no-repeat; 
+text-indent:-20000px;
+}
+#sidebar li li.links a:hover, #sidebar li li.links a:active{
+background-position: 0px -42px;
+}
+#sidebar li li.contact a:link, #sidebar li li.contact a:visited{
+width:203px; 
+height:42px;
+display:block; 
+overflow:hidden;
+background:url(images/contact_button.png) 0 0 no-repeat; 
+text-indent:-20000px;
+}
+#sidebar li li.contact a:hover, #sidebar li li.contact a:active{
+background-position: 0px -42px;
+}
+#sidebar li li.archive a:link, #sidebar li li.archive a:visited{
+width:203px; 
+height:42px;
+display:block; 
+overflow:hidden;
+background:url(images/archive_button.png) 0 0 no-repeat; 
+text-indent:-20000px;
+}
+#sidebar li li.archive a:hover, #sidebar li li.archive a:active{
+background-position: 0px -42px;
+}
+#sidebar li li.facebook a:link, #sidebar li li.facebook a:visited{
+width:203px; 
+height:42px;
+display:block; 
+overflow:hidden;
+background:url(images/facebook_button.png) 0 0 no-repeat; 
+text-indent:-20000px;
+}
+#sidebar li li.facebook a:hover, #sidebar li li.facebook a:active{
+background-position: 0px -42px;
+}
+#sidebar li li.twitter a:link, #sidebar li li.twitter a:visited{
+width:203px; 
+height:42px;
+display:block; 
+overflow:hidden;
+background:url(images/twitter_button.png) 0 0 no-repeat; 
+text-indent:-20000px;
+}
+#sidebar li li.twitter a:hover, #sidebar li li.twitter a:active{
+background-position: 0px -42px;
+}
+#sidebar li li.rss a:link, #sidebar li li.rss a:visited{
+width:203px; 
+height:42px;
+display:block; 
+overflow:hidden;
+background:url(images/rss_button.png) 0 0 no-repeat; 
+text-indent:-20000px;
+}
+#sidebar li li.rss a:hover, #sidebar li li.rss a:active{
+background-position: 0px -42px;
+}
+/* Search */
+.search-form input {
+float: right;
+width: 150px;
+padding: 3px;
+color: #BFBFBF;
+}
+/* Boxes */
+.box1 {
+padding: 20px;
+background: url(images/goal_bottom_bg.png) no-repeat;
+}
+.box2 {
+color: #BABABA;
+}
+.box2 h2 {
+margin-bottom: 15px;
+font-size: 16px;
+color: #FFFFFF;
+}
+.box2 ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.box2 a:link, .box2 a:hover, .box2 a:active, .box2 a:visited  {
+color: #EDEDED;
+}
+/* Footer */
+#footer {
+width: 816px;
+height: 80px;
+min-height: 65px;
+background: url(images/goal_bottom_bg.png) no-repeat left top;
+margin: 0 auto;
+padding: 15px 0 0 0;
+font-family: Tahoma, Geneva, sans-serif;
+}
+html>body #footer {
+height: auto;
+}
+#legal {
+clear: both;
+padding-top: 20px;
+padding-right: 30px;
+text-align: right;
+font-size: 10px;
+color: #5E510E;
+}
+#legal a {
+font-weight: bold;
+color: #FFFFFF;
+font-family: Tahoma, Geneva, sans-serif;
+}
+#comment {
+width: 500px;
+height: 100px;
+}
+.date  {
+padding: 5px 10px;
+margin: 0 0px 0 0;
+text-transform: capitalize;
+font-weight: bold;
+}
+
